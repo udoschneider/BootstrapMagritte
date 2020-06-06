@@ -9,13 +9,7 @@ BaselineOfBootstrapMagritte >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ spec blessing: #baseline.
-			spec
-				description: 'Bootstrap moved to github';
-				author: 'Diego Lont';
-				timestamp: '2019-5-14';
-				repository: 'http://smalltalkhub.com/mc/TorstenBergmann/BootstrapMagritte/main/'.
-			spec
+		do: [ spec
 				baseline: 'Bootstrap'
 					with: [ spec
 						repository: 'github://astares/Seaside-Bootstrap';
