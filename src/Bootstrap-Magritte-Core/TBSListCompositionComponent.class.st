@@ -1,6 +1,6 @@
 Class {
 	#name : #TBSListCompositionComponent,
-	#superclass : #MAListCompositonComponent,
+	#superclass : #MAListCompositionComponent,
 	#category : #'Bootstrap-Magritte-Core'
 }
 
